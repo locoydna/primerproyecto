@@ -1,0 +1,69 @@
+/* Fondo inspirado en los tonos oscuros y cálidos de la Horda */
+body {
+    background-color: #3E1F07; /* Marrón oscuro para sensación de profundidad */
+    color: #E0C078; /* Texto general en dorado suave para buena lectura */
+    font-family: "Arial", sans-serif;
+}
+
+/* Título principal con colores vibrantes de la Horda */
+h1 {
+    color: #D7263D; /* Rojo intenso inspirado en la bandera de la Horda */
+    text-align: center;
+    text-shadow: 2px 2px 5px black;/* se aplica para agregar una sombra  */
+}
+
+/* Estilo para párrafos con diferenciación */
+p {
+    color: #D4AF37; /* Dorado vibrante para contrastar con el fondo */
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Subtítulos con un estilo más imponente */
+h3 {
+    color: #974F23; /* Tonos cobre para darle un aire de antiguo pergamino */
+}
+
+/* Sección especial secundaria con fondo oscuro */
+.secundario {
+    background-color: #5C2E0E; /* Marrón rojizo intenso */
+    color: #FFD700; /* Amarillo dorado para resaltar texto */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Estilo para bloques de contenido dentro de div */
+.subtitulo {
+    background-color: #4A2C17; /* Tonos madera oscura */
+    color: #D4AF37;
+    padding: 15px;
+    border-left: 5px solid #D7263D;
+}
+
+/* Texto en línea con span, resaltando detalles */
+.texto-linea {
+    color: #9E392C; /* Rojo quemado */
+    font-weight: bold;
+}
+.image-container {
+    display: flex;
+    align-items: flex-start; /* Alinea el contenido desde la parte superior */
+    gap: 15px; /* Espacio entre la imagen y el texto */
+    padding: 10px; /* Espaciado interno */
+}
+
+.adjusted-img {
+    max-width: 200px; /* Tamaño de la imagen */
+    height: auto; /* Mantiene la proporción */
+}
+
+.image-text {
+    flex: 1; /* Permite que el texto ocupe el espacio disponible */
+    max-width: 600px; /* Define un ancho máximo para evitar que el texto se extienda demasiado */
+    text-align: left; /* Asegura que el texto esté alineado */
+}
+
+.image-text p,
+.image-text ul {
+    margin: 10px 0; /* Mejora el espaciado entre párrafos y listas */
+}
